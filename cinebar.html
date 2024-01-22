@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/cinebar.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Serif Text:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abril Fatface:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="public\sgw.png">
+    <title>Cinebar | Shivraj Ghorpade</title>
+  </head>
+  <body>
+    <div class="cinebar">
+      <nav class="navbar">
+        <div class = "log">
+          <a href="./index.html"><img alt="logo" src="./public/sgw.png" /></a>
+        </div>
+        <div class = "menu menu-1">
+          <ul class = "nav-list">
+            <li><a href="./index.html">Work</a></li>
+            <li id = "aboutText"><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <ul class = "icon-list">
+            <li class = "selected"><a href="./index.html"><img class="workico" alt="" src="public\work.svg"/></a></li>
+            <li id = "aboutText"><a href="#"><img class="aboutico" alt="" src="public\info.svg"/></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="panel1">
+        <img class="logo" alt="" src="./public/cinebarl.png" />
+        <div class="title">
+          A snack ordering app catering to avid moviegoers.
+        </div>
+      </div>
+      <div class = "header">
+        <img class="headerimg" alt="" src="./public/header.jpg" />
+      </div>
+      <div class ="heading">
+        <div class="topic">Role</div>
+        <div class="txt">
+          UX designer, designing an app for CineBar from conception to delivery.
+        </div>
+      </div>
+      <div class ="heading">
+        <div class="topic">Goal</div>
+        <div class="txt">
+          Designing a seamless ordering process while the user can enjoy the movie simultaneously.
+        </div>
+      </div>
+      <div class ="heading">
+        <div class="topic">Audience</div>
+        <div class="txt">
+          Regular or occasional moviegoers, who do not want to spend time at the cinema snack bar.
+        </div>
+      </div>
+      <div class = "header">
+        <img class="headerimg" alt="" src="./public/youxventuresoalh2mojuukunsplash1-1@2x.png"/>
+      </div>
+      <div class ="heading2">
+        <div class="topic">Challenges</div>
+        <div class="txt">
+          Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.
+        </div>
+      </div>
+      <div class ="heading3">
+        <div class="topic">Research</div>
+        <div class="txt">
+          The user group consisted of potential customers for the app that established the need for the app through the problem of not having the time to prepare food before the movie and the dilemma of having to wait multiple hours for the movie to end to grab a meal.
+        </div>
+      </div>
+      <div class ="heading2">
+        <div class="topic">Initial Concepts</div>
+        <div class="txt">
+          Being a snack ordering app, my initial stages consisted of making sure of incorporating pictures into the app to entice the user.
+        </div>
+      </div>
+      <div class="wireframe">
+        <img class="wfimg" alt="" src="./public/cbwf.png" />
+      </div>
+      <div class ="heading3">
+        <div class="topic">User Testing</div>
+        <div class="txt">
+          I conducted two rounds of usability studies. Findings from the first study helped guide the designs from wireframes to mockups. The second study used a high-fidelity prototype and revealed what aspects of the mockups needed refining.
+        </div>
+      </div>
+      <div class ="heading2">
+        <div class="topic">Final Stages</div>
+        <div class="txt">
+          Early designs were unclear about the layout so I added clear call to action buttons to make the platform more intuitive and easy to interact with.
+        </div>
+      </div>
+      <div class="wireframe">
+        <img class="wfimg" alt="" src="./public/muimg.png" />
+      </div>
+      <div class ="heading">
+        <div class="topic">Conclusion</div>
+        <div class="txt">
+          The app meets the needs of users who have been longing for an option of this kind.
+        </div>
+      </div>
+      <div class ="heading2">
+        <div class="topic">Learnings</div>
+        <div class="txt">
+          While designing the Cinebar app, I learned various UI design concepts and how to effectively cater to the user’s needs and how to build on it with additional feedback as well.
+        </div>
+      </div>
+      <div class="rights">
+        © 2023. All Rights Reserved to Shivraj Ghorpade.
+      </div>
+      <div class="footer menu-1">
+        <ul class="footlist">
+          <li><a href="./index.html">All</a></li>
+          <li class = "selected"><a href="./cinebar.html">CineBar</a></li>
+          <li><a href="./kickbox.html">KickBox</a></li>
+          <li><a href="./kinderchef.html">KinderChef</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+        <img class="sgl" alt="" src="./public/16940748444286956-3@2x.png" />
+      </div>
+    </div>
+    <script>
+      var workText = document.getElementById("workText");
+      if (workText) {
+        workText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./about.html";
+        });
+      }
+      
+      var allText = document.getElementById("allText");
+      if (allText) {
+        allText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var kickBoxText = document.getElementById("kickBoxText");
+      if (kickBoxText) {
+        kickBoxText.addEventListener("click", function (e) {
+          window.location.href = "./kickbox.html";
+        });
+      }
+      
+      var kinderChefText = document.getElementById("kinderChefText");
+      if (kinderChefText) {
+        kinderChefText.addEventListener("click", function (e) {
+          window.location.href = "./kinderchef.html";
+        });
+      }
+      
+      var aboutText1 = document.getElementById("aboutText1");
+      if (aboutText1) {
+        aboutText1.addEventListener("click", function (e) {
+          window.location.href = "./about.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Serif Text:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abril Fatface:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="public\sgw.png">
+    <title>Portfolio - Shivraj Ghorpade</title>
+  </head>
+  <body>
+    <div class="home">
+      <nav class="navbar">
+        <div class = "log">
+          <a href="./index.html"><img alt="logo" src="./public/sgw.png" /></a>
+        </div>
+        <div class = "menu menu-1">
+          <ul class = "nav-list">
+            <li class = "selected"><a href="./index.html">Work</a></li>
+            <li id = "aboutText"><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <ul class = "icon-list">
+            <li class = "selected"><a href="./index.html"><img class="workico" alt="" src="public\work.svg"/></a></li>
+            <li id = "aboutText"><a href="./about.html"><img class="aboutico" alt="" src="public\info.svg"/></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class = "panel1">
+        <div class="int"><img class="sgb" alt="" src="./public/sgb.png" /></div>
+        <div class="pname">Shivraj Ghorpade</div>
+        <div class="prof">User Experience Designer</div>
+      </div>
+      <div class="panel2">
+            <img class ="pitem card hover11 float" src="./public/cbcard.png" id="cbcard" />
+            <img class = "pitem card hover11 float" alt="" src="./public/kbcard.png" id="kbcard"/>
+            <img class="pitem card hover11 float" alt="" src="./public/kccard.png" id="kccard"/>
+      </div>
+      <div class="rights">
+        © 2023. All Rights Reserved to Shivraj Ghorpade.
+      </div>
+    </div>
+
+    <script>
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./about.html";
+        });
+      }
+
+      var rectangleImage = document.getElementById("kbcard");
+      if (rectangleImage) {
+        rectangleImage.addEventListener("click", function (e) {
+          window.location.href = "./kickbox.html";
+        });
+      }
+      
+      var rectangleImage1 = document.getElementById("cbcard");
+      if (rectangleImage1) {
+        rectangleImage1.addEventListener("click", function (e) {
+          window.location.href = "./cinebar.html";
+        });
+      }
+      
+      var rectangleImage2 = document.getElementById("kccard");
+      if (rectangleImage2) {
+        rectangleImage2.addEventListener("click", function (e) {
+          window.location.href = "./kinderchef.html";
+        });
+      }
+      </script>
+  </body>
+</html>

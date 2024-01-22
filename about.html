@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Serif Text:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abril Fatface:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="public\sgw.png">
+    <title>About | Shivraj Ghorpade</title>
+  </head>
+  <body>
+    <div class="about"> 
+      
+      <nav class="navbar">
+        <div class = "log">
+          <a href="./index.html"><img alt="logo" src="./public/sgw.png" /></a>
+        </div>
+        <div class = "menu menu-1">
+          <ul class = "nav-list">
+            <li><a href="./index.html">Work</a></li>
+            <li class = "selected" id = "aboutText"><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <ul class = "icon-list">
+            <li ><a href="./index.html"><img class="workico" alt="" src="public\work.svg"/></a></li>
+            <li id = "aboutText"><a href="#"><img class="aboutico" alt="" src="public\info.svg"/></a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="intro">
+        <img class="sglogo" alt="" src="public\16940748444286956-1@2x.png"/>
+      </div>
+      <div class="info">
+        <div class="name">Hello, I'm Shivraj.</div>
+        <div class="other">I'm an aspiring UX designer. 
+          You can contact me at my email below.</div>
+        <div class = "mail"> 
+          <img class="mailico" alt="" src="public\mailico.svg"/> 
+          <p>shivrajg710@gmail.com</p>
+        </div>
+        <div class="rights">
+          © 2023. All Rights Reserved to Shivraj Ghorpade.
+        </div>
+    </div>
+
+    <script>
+      var workText = document.getElementById("workText");
+      if (workText) {
+        workText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>
